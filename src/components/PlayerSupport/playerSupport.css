@@ -1,0 +1,107 @@
+.compbtn{
+	background: rgba(83, 92, 104, 1);
+	padding:5px 10px;
+	border: none;
+	outline: none;
+	color:#fff;
+	margin:0 10%;
+}
+.replybtn{
+	background: rgba(83, 92, 104, 1);
+	padding:5px 10px;
+	border: none;
+	outline: none;
+	color:#fff;
+	border-radius:5px;
+/*	margin:0 10%;*/
+}
+.replybtn a{
+	color:#fff;
+	text-decoration: none;
+	font-size:12px;
+}
+.replybtn a:hover{
+	color:#fff;
+	text-decoration: none;
+	font-size:12px;
+}
+.PSSactive{
+	color:red;
+}
+.mlx{
+	margin-left:0.26rem;
+}
+.labelcircle{
+	width:18px;
+	height:18px;
+	border-radius:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.PSSsidebar{
+/*	height:800px!important;*/
+}
+.pSS{
+	height:90vh;
+}
+.pSSmobile{
+	width:200px;
+	height:100vh;
+/*	display: flex;*/
+}
+.psm, .psrm, .psr{
+	height:90vh;
+	padding:1rem;
+}
+.pSS2{
+	height:90vh;
+}
+.pSS3{
+	height:90vh;
+}
+.bg-support{
+	background:rgba(80, 165, 241, 1) ;
+}
+.pssIconcarrier{
+	background: rgba(83, 92, 104, 1);
+	padding:5px 15px;
+	margin:0 0.8%;
+	color:#fff;
+}
+.input{
+/*	padding:20px;*/
+	margin-top:2.6px;
+}
+.labelbtn{
+  padding: 3px 7px;
+  border:none;
+  border-radius:4px;
+  color:#fff;
+  font-size:10px;
+}
+.psm > a{
+	color:#000!important;
+	font-size: 12px;
+	text-decoration: none!important;
+}
+
+@media screen and (max-width:991px){
+	.pSS{
+		height:100%;
+	}
+	.psm{
+		height:100%;
+	}
+}
+@media screen and (max-width: 875px){
+	.psm{
+		padding: 0.3rem;
+	}
+}
+@media screen and (max-width:540px){
+	.pssIconcarrier{
+		padding:5px;
+		margin:0 2%;
+	}
+}

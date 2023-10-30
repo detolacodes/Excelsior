@@ -1,0 +1,72 @@
+.Candlestick svg > rect{
+    /* background-color: transparent; */
+    fill: #535C68;
+}
+.candlestick-para{
+    color: #7F90A8;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+.candlestick-row{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+.candlestick-row-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.candlestick-row-content small{
+    color: #FFF;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.candlestick-row-content p{
+    color: #44DA79;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.candlestick-row-image{
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+}
+.candlestick-container{
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 12.51px 0;
+}
+@media screen and (max-width:705px){
+    .candlestick-container{
+        width:550px;
+    }
+}
+@media screen and (max-width:590px){
+    .candlestick-container{
+        width:400px;
+    }
+}
+
+@media screen and (max-width:440px){
+    .candlestick-container{
+        width:300px;
+    }
+}
+@media screen and (max-width:340px){
+    .candlestick-container{
+        width:200px;
+    }
+}

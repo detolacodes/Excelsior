@@ -1,0 +1,83 @@
+.balance-container form >button{
+    border: 1px solid #08EDC5 !important;
+    color: #00FCCF;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 100%;
+background-color: transparent !important;
+align-self: center;
+}
+.balance-container form >button > svg{
+    margin-right: 10px;
+}
+.Balance{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #535C68;
+    border-radius: 5px;
+}
+.Balance > p{
+    display: flex;
+    color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-items: center;
+}
+.balance-container > p{
+    color: #44DA79;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.balance-container {
+    margin-top: 20px;
+}
+.balance-container span{
+    color: #44DA79;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.balance-container form{
+    display: flex;
+    flex-direction: column;
+}
+.form-inline > p{
+    color: #FFF;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 10px;
+}
+.balance-container .input-group{
+    width: 100% !important;
+}
+.balance-container .input-group-text{
+    width: 62.122px;
+    height: 22.508px;
+    color: #495057;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.balance-container .form-select{
+    width: 126.271px;
+height: 22.508px;
+}
+.balance-container .form-inline::placeholder, .balance-container .form-select{
+    color: #495057;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

@@ -1,0 +1,76 @@
+.orderbookcom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: #535C68;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.orderbookcom p{
+    color: #7F90A8;
+font-size: 8px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.table{
+    width: 100%;
+    background-color: #fff;
+}
+td, th{
+    color: #495057;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+th{
+    font-weight: 700;
+}
+.table-container{
+    width: 50%;
+    background-color: #fff;
+}
+.trfirst{
+    color: #495057;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+margin: 0;
+}
+.table-flex{
+    width: 100%;
+    display: flex;
+}
+.orderbookcom button{
+    margin-top: 20px;
+    width: 229.688px;
+height: 30px;
+color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 5px;
+}
+.orderbook-notification{
+    width: 100%;
+    border-left: 5px solid #fff;
+}
+.orderbookcom-not-container, .not-row{
+    width: 100%;
+    display: flex;
+}
+.not-row{
+    width: 50%;
+}
+.not-row p{
+    color: #FFF;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
